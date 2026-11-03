@@ -1,0 +1,103 @@
+#API call for adding two numbers
+###
+POST http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 25
+}
+
+#API call for subtacting two numbers
+###
+POST http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 25
+}
+
+#API call for multiplication of two numbers
+###
+POST http://127.0.0.1:8000/Multiplication/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 25
+}
+
+#API call for division of two numbers
+###
+POST http://127.0.0.1:8000/Division/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 25
+}
+
+
+#API call for modulus of two numbers
+###
+POST http://127.0.0.1:8000/Modulus/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 25
+}
+
+
+#API call for modulus of two numbers
+###
+POST http://127.0.0.1:8000/BMI/
+Content-Type: application/json
+
+{
+    "Height" : 160,
+    "Weight" : 61
+}
+
+
+#API call for age
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "Birth_year" : 2001,
+    "Current_year" : 2026
+}
+
+#API call for percentage
+### 
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "total_mark" : 500,
+    "obtained_mark" : 400
+}
+
+#API call for area calculation of rectangle
+### 
+POST http://127.0.0.1:8000/area/
+Content-Type: application/json
+
+{
+    "length" : 10,
+    "width" : 6
+}
+
+
+###
+POST http://127.0.0.1:8000/SI/
+Content-Type: application/json
+
+{
+    "principal" : 10000,
+    "rate" : 5,
+    "time" :2
+}
